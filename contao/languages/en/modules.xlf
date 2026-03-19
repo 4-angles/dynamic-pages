@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="contao/languages/en/modules.php" source-language="en">
+    <body>
+      <trans-unit id="FMD.dynamicregion_list.0">
+        <source>Dynamic Regions List</source>
+      </trans-unit>
+      <trans-unit id="FMD.dynamicregion_reader.0">
+        <source>Dynamic Regions Item Reader</source>
+      </trans-unit>
+      <trans-unit id="MOD.DynamicPages.0">
+        <source>Dynamic Regions</source>
+      </trans-unit>
+      <trans-unit id="MOD.tl_dynamicregion_archive">
+        <source>Dynamic Regions</source>
+      </trans-unit>
+      <trans-unit id="MOD.DynamicPages_importer.0">
+        <source>Import Regions</source>
+      </trans-unit>
+      <trans-unit id="MSC.emptylist">
+        <source>Empty list</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

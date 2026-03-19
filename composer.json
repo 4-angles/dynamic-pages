@@ -1,0 +1,35 @@
+{
+    "name": "4-angles/dynamic-pages",
+    "description": "Contao",
+    "license": "LGPL-3.0-or-later",
+    "type": "contao-bundle",
+    "version": "5.0",
+    "authors": [
+        {
+            "name": "Miroslav Horvatov",
+            "email": "miroslav@four-angles.com",
+            "homepage": "https://four-angles.com",
+            "role": "Full Stack Developer"
+        }
+    ],
+    "require": {
+        "contao/core-bundle": "^4.13 || ^5"
+    },
+    "extra": {
+        "contao-manager-plugin": "FourAngles\\DynamicPages\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "FourAngles\\DynamicPages\\": "src/"
+        },
+        "classmap": [
+            "contao/"
+        ],
+        "exclude-from-classmap": [
+            "contao/config/",
+            "contao/dca/",
+            "contao/languages/",
+            "contao/templates/"
+        ]
+    }
+}

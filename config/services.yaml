@@ -1,0 +1,3 @@
+services:
+    FourAngles\DynamicPages\EventListener\SitemapListener:
+        tags: [kernel.event_listener]

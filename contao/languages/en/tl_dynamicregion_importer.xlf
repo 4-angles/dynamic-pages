@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="contao/languages/en/tl_dynamicregion_importer.php" source-language="en">
+    <body>
+      <trans-unit id="tl_dynamicregion_importer.title.0">
+        <source>Title</source>
+      </trans-unit>
+      <trans-unit id="tl_dynamicregion_importer.singleSRC.0">
+        <source>CSV File</source>
+      </trans-unit>
+      <trans-unit id="tl_dynamicregion_importer.singleSRC.1">
+        <source>It needs to be CSV File</source>
+      </trans-unit>
+      <trans-unit id="tl_dynamicregion_importer.dynamicregionarchive.0">
+        <source>Select region archive</source>
+      </trans-unit>
+      <trans-unit id="tl_dynamicregion_importer.uploadcsv.0">
+        <source>Upload regions from CSV (only 1st column)</source>
+      </trans-unit>
+      <trans-unit id="tl_dynamicregion_importer.uploadcsv.1">
+        <source>Only if checkbox is checked, CSV will be uploaded</source>
+      </trans-unit>
+
+      <trans-unit id="tl_dynamicregion_importer.title_legend">
+        <source>Title Legend</source>
+      </trans-unit>
+      <trans-unit id="tl_dynamicregion_importer.file_legend">
+        <source>File Legend</source>
+      </trans-unit>
+
+
+      
+    </body>
+  </file>
+</xliff>

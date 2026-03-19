@@ -1,0 +1,19 @@
+<?php $this->extend('block_unsearchable'); ?>
+
+<?php $this->block('content'); ?>
+<div class="regions-list">
+  <?php if ($this->items): ?>
+    <?php foreach ($this->items as $k => $v): ?>
+      <div class="regions-<?= $k ?>">
+        <ul>
+          <?php foreach ($v as $item): ?>
+            <li>
+              <a href="<?= $item['url'] ?>"><?= $item['item']->headline ?></a>
+            </li>
+          <?php endforeach; ?>
+        </ul>
+      </div>
+    <?php endforeach; ?>
+  <?php endif; ?>
+</div>
+<?php $this->endblock(); ?>
